@@ -1,0 +1,133 @@
+<resources>
+    <string name="app_name">TiendaVirtual</string>
+
+    <!-- Strings pantalla login -->
+    <string name="tv_titulo_login">LOGIN</string>
+    <string name="et_usuario_login">Usuario</string>
+    <string name="et_pasword_login">Contraseña</string>
+    <string name="btn_acceder_login">ACCEDER</string>
+    <string name="btn_registrarse_login">REGISTRARSE</string>
+
+    <!-- Strings pantalla cliente -->
+    <string name="tv_nombre_apellidos_usuario_cliente">Nombre cliente</string>
+    <string name="iv_usuario_cliente">Imagen cliente</string>
+    <string name="btn_perfil_cliente">PERFIL</string>
+    <string name="btn_hacer_pedidos_cliente">HACER PEDIDO</string>
+    <string name="btn_ver_pedidos_en_tramite_cliente">VER PEDIDOS EN TRAMITE</string>
+    <string name="btn_ver_compras_realizadas_cliente">VER COMPRAS REALIZADAS</string>
+    <string name="btn_salir_cliente">SALIR</string>
+
+    <!-- Strings pantalla administrador -->
+    <string name="tv_nombre_apellidos_usuario_admin">Nombre admin</string>
+    <string name="iv_usuario_admin">Imagen admin</string>
+    <string name="btn_perfil_admin">PERFIL</string>
+    <string name="btn_ver_pedidos_en_tramite_admin">VER PEDIDOS EN TRAMITE</string>
+    <string name="btn_ver_pedidos_aceptados_admin">VER PEDIDOS ACEPTADOS</string>
+    <string name="btn_ver_pedidos_rechazados_admin">VER PEDIDOS RECHAZADOS</string>
+    <string name="btn_salir_admin">SALIR</string>
+
+    <!-- Strings pantalla registrarse -->
+    <string name="tv_titulo_registro">REGISTRO</string>
+    <string name="et_nombre_registro">Nombre</string>
+    <string name="et_apellidos_registro">Apellidos</string>
+    <string name="et_email_registro">Correo Electrónico</string>
+    <string name="et_usuario_registro">Usuario</string>
+    <string name="et_password_registro">Contraseña</string>
+    <string name="et_confirmar_password_registro">Confirmar Contraseña</string>
+    <string name="ckb_administrador_registro">Administrador?</string>
+    <string name="btn_registrarse">REGISTRARSE</string>
+    <string name="btn_hacer_foto_reg">HACER_FOTO</string>
+    <string name="btn_seleccionar_img_reg">SELECCIONAR IMAGEN</string>
+    <string name="btn_cancelar_registro">CANCELAR</string>
+
+    <!--Strings pantalla hacer pedido-->
+    <string name="tv_categoria">Categoría</string>
+    <string name="tv_producto">Producto</string>
+    <string name="tv_cantidad">Cantidad</string>
+    <string name="btnSiguiente_hacerpedido">Siguiente</string>
+
+    <!--Strings pantalla datos pedido-->
+    <string name="tv_direccion">Dirección</string>
+    <string name="tv_ciudad">Ciudad</string>
+    <string name="tv_cp">CP</string>
+    <string name="et_direccion">Dirección</string>
+    <string name="et_ciudad">Ciudad</string>
+    <string name="et_cp">Código Postal</string>
+    <string name="btn_finalizar_pedeido">Finalizar</string>
+
+    <!--Strings pantalla diálogo-->
+    <string name="tv_dialogo">Pedido</string>
+    <string name="btn_aceptar_dialog">ACEPTAR</string>
+    <string name="btn_rechazar_dialog">RECHAZAR</string>
+
+    <!--Strings pantalla item cliente-->
+    <string name="tv_item_pedido">Pedido</string>
+
+    <!--Strings pantalla item admin-->
+    <string name="tv_item_pedido_admin">Pedido</string>
+    <string name="btn_aceptar_pedido">Aceptar</string>
+    <string name="btn_rechazar_pedido">Rachazar</string>
+
+    <!--Strings items menú cliente-->
+    <string name="item_hacer_pedido">Hacer Pedido</string>
+    <string name="item_ver_pedidos_tramite">Ver Pedidos en Tramite</string>
+    <string name="item_ver_compras_realizadas">Ver Compras_Realizadas</string>
+    <string name="item_salir_cliente">Salir</string>
+
+    <!--Strings items menú admin-->
+    <string name="item_ver_pedidos_tramite_admin">Ver Pedidos en Tramite</string>
+    <string name="item_ver_pedidos_aceptados">Ver Pedidos Aceptados</string>
+    <string name="item_ver_pedidos_rechazados">Ver Pedidos Rechazados</string>
+    <string name="item_salir_admin">Salir</string>
+
+    <!-- Strings pantalla perfil -->
+    <string name="tv_titulo_perfil">PERFIL</string>
+    <string name="et_nombre_perfil">Nombre</string>
+    <string name="et_apellidos_perfil">Apellidos</string>
+    <string name="et_email_perfil">Email</string>
+    <string name="et_old_pass_perfil">Password Antigua</string>
+    <string name="et_new_pass_perfil">Password Nueva</string>
+    <string name="et_conf_pass_perfil">Confirmar Contraseña</string>
+    <string name="ckb_admin_perfil">Administrador?</string>
+    <string name="btn_guardar_datos_perfil">GUARDAR</string>
+    <string name="btn_hacer_foto">CAMARA</string>
+    <string name="btn_seleccionar_imagen">SELECCIONAR IMAGEN</string>
+    <string name="btn_cancelar_perfil">CANCELAR</string>
+
+    <!--Array para el spinner de la categoría-->
+    <string-array name="categoria_spinner">
+        <item>Informática</item>
+        <item>Electrónica</item>
+        <item>Móviles</item>
+    </string-array>
+
+    <!--Array para el spinner de los productos-->
+    <string-array name="productos_informaticos_spinner">
+        <item>PC</item>
+        <item>Sobremesa</item>
+        <item>Portatil</item>
+        <item>Monitor</item>
+    </string-array>
+
+    <string-array name="productos_electronicos_spinner">
+        <item>Televisión</item>
+        <item>DVD</item>
+    </string-array>
+
+    <string-array name="productos_moviles_spinner">
+        <item>Pixel</item>
+        <item>Galaxy</item>
+        <item>Iphone</item>
+        <item>Xiaomi</item>
+    </string-array>
+
+    <!--Array para el spinner de la cantidad-->
+    <string-array name="cantidad_spinner">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+
+</resources>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/item_hacer_pedido"
+        android:title="@string/item_hacer_pedido" />
+    <item
+        android:id="@+id/item_ver_pedidos_tramite_cliente"
+        android:title="@string/item_ver_pedidos_tramite" />
+    <item
+        android:id="@+id/item_ver_compras_realizadas"
+        android:title="@string/item_ver_compras_realizadas" />
+    <item
+        android:id="@+id/item_salir_cliente"
+        android:title="@string/item_salir_cliente" />
+</menu>

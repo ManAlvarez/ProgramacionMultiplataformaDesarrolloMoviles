@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/item_ver_pedidos_tramite_admin"
+        android:title="@string/item_ver_pedidos_tramite_admin" />
+    <item
+        android:id="@+id/item_ver_pedidos_aceptados"
+        android:title="@string/item_ver_pedidos_aceptados" />
+    <item
+        android:id="@+id/item_ver_pedidos_rechazados"
+        android:title="@string/item_ver_pedidos_rechazados" />
+    <item
+        android:id="@+id/item_salir_admin"
+        android:title="@string/item_salir_admin" />
+</menu>

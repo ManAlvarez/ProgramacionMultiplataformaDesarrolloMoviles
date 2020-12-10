@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegistroActivity"
+    tools:layout_editor_absoluteY="81dp">
+
+    <TextView
+        android:id="@+id/tv_titulo_registro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/tv_titulo_registro"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@+id/et_nombre_registro"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/et_usuario_registro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/et_usuario_registro"
+        android:inputType="textPersonName"
+        android:importantForAutofill="no"
+        app:layout_constraintBottom_toTopOf="@+id/et_confirmar_password_registro"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/et_email_registro"
+        app:layout_constraintTop_toBottomOf="@+id/et_apellidos_registro" />
+
+    <EditText
+        android:id="@+id/et_email_registro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/et_email_registro"
+        android:inputType="textEmailAddress"
+        android:importantForAutofill="no"
+        app:layout_constraintBottom_toTopOf="@+id/et_password_registro"
+        app:layout_constraintEnd_toStartOf="@+id/et_usuario_registro"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/et_nombre_registro" />
+
+    <EditText
+        android:id="@+id/et_nombre_registro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/et_nombre_registro"
+        android:inputType="textPersonName"
+        android:importantForAutofill="no"
+        app:layout_constraintBottom_toTopOf="@+id/et_email_registro"
+        app:layout_constraintEnd_toStartOf="@+id/et_apellidos_registro"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_titulo_registro" />
+
+    <EditText
+        android:id="@+id/et_confirmar_password_registro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/et_confirmar_password_registro"
+        android:inputType="textPassword"
+        android:importantForAutofill="no"
+        app:layout_constraintBottom_toTopOf="@+id/btn_cancelar_registro"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/et_password_registro"
+        app:layout_constraintTop_toBottomOf="@+id/et_usuario_registro" />
+
+    <EditText
+        android:id="@+id/et_apellidos_registro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/et_apellidos_registro"
+        android:inputType="textPersonName"
+        android:importantForAutofill="no"
+        app:layout_constraintBottom_toTopOf="@+id/et_usuario_registro"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/et_nombre_registro"
+        app:layout_constraintTop_toBottomOf="@+id/tv_titulo_registro" />
+
+    <EditText
+        android:id="@+id/et_password_registro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/et_password_registro"
+        android:inputType="textPassword"
+        android:importantForAutofill="no"
+        app:layout_constraintBottom_toTopOf="@+id/btn_registrarse"
+        app:layout_constraintEnd_toStartOf="@+id/et_confirmar_password_registro"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/et_email_registro" />
+
+    <CheckBox
+        android:id="@+id/ckb_administrador_registro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/ckb_administrador_registro"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/btn_cancelar_registro"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/btn_registrarse"
+        app:layout_constraintTop_toBottomOf="@+id/et_confirmar_password_registro" />
+
+    <Button
+        android:id="@+id/btn_registrarse"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:onClick="registrar"
+        android:text="@string/btn_registrarse"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/ckb_administrador_registro"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/et_password_registro" />
+
+    <Button
+        android:id="@+id/btn_cancelar_registro"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:onClick="cancelar"
+        android:text="@string/btn_cancelar_registro"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/ckb_administrador_registro"
+        app:layout_constraintTop_toBottomOf="@+id/et_confirmar_password_registro" />
+</androidx.constraintlayout.widget.ConstraintLayout>
